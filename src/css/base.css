@@ -55,6 +55,19 @@ section {
   padding: 64px 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
 .title {
   font-family: var(--second-family);
   font-size: 48px;
