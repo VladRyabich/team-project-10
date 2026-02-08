@@ -26,8 +26,6 @@
 }
 
 .hero-subtitle {
-  font-size: 18px;
-  line-height: 1.5;
   color: var(--white-text-color);
   margin-bottom: 32px;
 }
