@@ -75,6 +75,8 @@
 /* Styles for Desktop devices */
 @media screen and (min-width: 1440px) {
   .hero-section {
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 259px 0;
   }
 
