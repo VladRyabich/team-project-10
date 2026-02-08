@@ -1,0 +1,78 @@
+.experience-title {
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.experience-subtitle {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.experience-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.experience-item {
+  margin: 0 auto;
+}
+
+.experience-item-img {
+  width: 100%;
+  border-radius: 32px;
+}
+
+.experience-item:last-child .experience-item-img {
+  height: 391px;
+  object-fit: cover;
+}
+
+/* Styles for Tablet devices */
+@media screen and (min-width: 768px) {
+  .experience-list {
+    gap: 32px;
+  }
+
+  .experience-item {
+    margin: 0;
+  }
+
+  .experience-item-img {
+    width: 336px;
+  }
+
+  .experience-item:last-child,
+  .experience-item:last-child .experience-item-img {
+    width: 100%;
+  }
+}
+
+/* Styles for Desktop devices */
+@media screen and (min-width: 1440px) {
+  .experience-title {
+    font-size: 48px;
+  }
+
+  .experience-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-height: 950px;
+  }
+
+  .experience-item-img {
+    width: 416px;
+  }
+
+  .experience-item:last-child,
+  .experience-item:last-child .experience-item-img {
+    width: 416px;
+  }
+
+  .experience-item:last-child .experience-item-img {
+    height: auto;
+  }
+}
