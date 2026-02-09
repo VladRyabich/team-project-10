@@ -21,3 +21,6 @@
 @import url('./testimonials.css');
 @import url('./location.css');
 @import url('./footer.css');
+
+/* popup */
+@import url('./popup-wellcome.css');
