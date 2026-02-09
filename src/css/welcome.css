@@ -1,0 +1,98 @@
+.welcome-title {
+  position: relative;
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+
+.welcome-title::before {
+  content: 'Welcome';
+  display: block;
+  margin-bottom: 16px;
+
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.welcome-text {
+  margin-bottom: 32px;
+}
+
+.welkome-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  margin-bottom: 32px;
+
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--white-text-color);
+
+  border-radius: 100px;
+  padding: 10px 0;
+
+  box-shadow:
+    0 1px 2px 0 var(--opacity-neutral-darkest-5),
+    inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2),
+    inset 0 0 0 1px var(--opacity-neutral-darkest-15),
+    inset 0 2px 1px 0 rgba(255, 255, 255, 0.25),
+    inset 0 32px 24px 0 var(--opacity-white-5);
+  background: var(--btn-bg-color);
+
+  opacity: 1;
+  transition:
+    opacity 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.welkome-link:hover,
+.welkome-link:focus {
+  opacity: 0.5;
+}
+
+.welkome-link:active {
+  opacity: 1;
+  box-shadow: none;
+}
+
+.welcome-svg {
+  fill: currentColor;
+}
+
+.welcome-img {
+  border-radius: 40px;
+}
+
+/* Styles for Tablet devices */
+@media screen and (min-width: 768px) {
+  .welcome-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+  }
+
+  .welcome-title,
+  .welcome-text-link-wrapper {
+    flex: 1;
+  }
+
+  .welkome-link {
+    width: fit-content;
+    padding: 10px 24px;
+  }
+}
+
+/* Styles for Desktop devices */
+@media screen and (min-width: 1440px) {
+  .welcome-title {
+    font-size: 48px;
+  }
+
+  .welkome-link {
+    margin-bottom: 80px;
+  }
+}
