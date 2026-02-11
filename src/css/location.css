@@ -92,6 +92,8 @@
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
+
+
     .location-label {
         font-size: 20px;
     }
@@ -102,6 +104,7 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1439px) {
+
     .location-list {
         display: flex;
         column-gap: 40px;
@@ -115,6 +118,11 @@
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1440px) {
+
+    .location-content {
+        margin-bottom: 0;
+    }
+
     .location-content {
         min-width: 419px;
     }

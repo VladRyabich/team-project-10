@@ -5,6 +5,10 @@
 	text-align: center;
 }
 
+.quality-content {
+	margin-bottom: 32px;
+}
+
 .quality-span {
 	font-weight: 600;
 	font-size: 16px;
@@ -13,10 +17,6 @@
 .quality-title {
 	margin-top: 16px;
 	margin-bottom: 24px;
-}
-
-.benefits-text {
-	margin-bottom: 32px;
 }
 
 .benefits-list {
