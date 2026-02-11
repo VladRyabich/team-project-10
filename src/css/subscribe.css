@@ -20,12 +20,6 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 767px) {
-  .sub-desc-form-cont {
-    /* align-items: center; */
-  }
-}
-
 .sub-about {
   font-family: var(--font-family);
   font-weight: 400;
@@ -114,6 +108,14 @@
   height: 400px;
   border-radius: 40px;
 }
+
+/* Disabled state for button when email is invalid */
+.sub-form-container:has(.sub-input:invalid) .sub-btn {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 @media screen and (min-width: 768px) {
   .sub-title {
     width: 704px;
