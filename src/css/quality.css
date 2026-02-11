@@ -19,6 +19,14 @@
 	margin-bottom: 32px;
 }
 
+.benefits-item {
+	margin-bottom: 24px;
+}
+
+.benefits-item:last-child {
+	margin-bottom: 0;
+}
+
 .benefits-img {
 	width: 100%;
 
@@ -46,6 +54,7 @@
 
 	.benefits-item {
 		width: calc((100% - 24px) / 2);
+		margin-bottom: 0;
 	}
 
 	.benefits-item:last-child {
