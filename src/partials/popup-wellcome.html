@@ -1,35 +1,38 @@
 <div class="backdrop" data-modal>
-    <div class="popup-wellcome">
-        <button class="popup-close" data-modal-close type="button">
-            <svg height="32" width="32">
-                <use href="../img/icons/icons.svg#icon-close-btn"></use>
-            </svg>
-        </button>
-        <h3 class="title wellcome-popup-title">Welcome to the world of CoffeeJoy!</h3>
-        <p class="wellcome-popup-text">Fresh brews, special offers, and cozy updates are coming your way.</p>
-        <picture>
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              /img/wellcome-popup.jpg 1x,
-              /img/2x/wellcome-popup@2x.jpg 2x
-            "
-          />
-          <source
-            media="(max-width: 767px)"
-            srcset="
-              /img/wellcome-popup-mob.jpg 1x,
-              /img/2x/wellcome-popup-mob@2x.jpg 2x
-            "
-          />
-          <img
-            class="wellcome-popup-image"
-            src="/img/wellcome-popup.jpg"
-            alt="A breakfast scene"
-            width="374"
-            height="644"
-          />
-        </picture>
-        <button class="wellcome-popup-btn" data-modal-close type="button">Close</button>
-    </div>
+  <div class="popup-wellcome">
+    <button class="popup-close" data-modal-close type="button">
+      <svg height="32" width="32">
+        <use href="../img/icons/icons.svg#icon-close-btn"></use>
+      </svg>
+    </button>
+    <h3 class="title wellcome-popup-title">
+      Welcome to the world of CoffeeJoy!
+    </h3>
+    <p class="wellcome-popup-text">
+      Fresh brews, special offers, and cozy updates are coming your way.
+    </p>
+    <picture>
+      <source
+        media="(min-width: 768px)"
+        srcset="/img/wellcome-popup.jpg 1x, /img/2x/wellcome-popup@2x.jpg 2x"
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          /img/wellcome-popup-mob.jpg       1x,
+          /img/2x/wellcome-popup-mob@2x.jpg 2x
+        "
+      />
+      <img
+        class="wellcome-popup-image"
+        src="/img/wellcome-popup.jpg"
+        alt="A breakfast scene"
+        width="374"
+        height="644"
+      />
+    </picture>
+    <button class="wellcome-popup-btn" data-modal-close type="button">
+      Close
+    </button>
+  </div>
 </div>
