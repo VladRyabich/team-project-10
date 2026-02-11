@@ -2,6 +2,14 @@
     margin-bottom: 20px;
 }
 
+.welcome-content {
+    margin-bottom: 32px;
+}
+
+.welcome-content-wrapper {
+    margin-bottom: 32px;
+}
+
 .welcome {
     font-weight: 600;
     font-size: 16px;
@@ -11,7 +19,6 @@
 
 .welcome-title {
     max-width: 288px;
-    margin-bottom: 32px;
 }
 
 .welcome-description {
@@ -40,7 +47,6 @@
     font-size: 16px;
     line-height: 1.5;
     color: var(--white-text-color);
-    margin-bottom: 32px;
 }
 
 .btn-location:hover {
@@ -72,12 +78,16 @@
         display: flex;
     }
 
-    .welcome-title  {
-        max-width: 100%;
+    .welcome-content-wrapper {
+        margin-bottom: 0;
     }
-
+    
     .welcome-content > div {
         flex-basis: calc((100% - 32px) / 2);
+    }
+
+    .welcome-title  {
+        max-width: 100%;
     }
 
     .btn-location {
