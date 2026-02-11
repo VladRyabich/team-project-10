@@ -82,6 +82,11 @@
   margin-top: 24px;
 }
 
+.sub-btn:hover,
+.sub-btn:focus {
+  opacity: 0.5;
+}
+
 .sub-btn-txt {
   font-family: var(--font-family);
   font-weight: 500;
