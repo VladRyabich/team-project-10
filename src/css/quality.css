@@ -19,12 +19,11 @@
 	margin-bottom: 32px;
 }
 
-.benefits-item {
-	margin-bottom: 24px;
-}
-
-.benefits-item:last-child {
-	margin-bottom: 0;
+.benefits-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 24px;
 }
 
 .benefits-img {
@@ -45,16 +44,8 @@
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
-	.benefits-list {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 24px;
-	}
-
 	.benefits-item {
 		width: calc((100% - 24px) / 2);
-		margin-bottom: 0;
 	}
 
 	.benefits-item:last-child {
