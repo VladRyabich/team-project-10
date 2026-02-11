@@ -1,67 +1,67 @@
 /* Styles for Mobile devices */
 .testimonials-title {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .testimonials-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
 .testimonials-list-item {
-    outline: 1px solid var(--opacity-neutral-darkest-15, rgba(11, 8, 3, 0.15));
-    outline-offset: -1px;
-    background: var(--cards-bg-color, #c29d84);
-    border-radius: 32px;
-    padding: 32px;
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
+  outline: 1px solid var(--opacity-neutral-darkest-15, rgba(11, 8, 3, 0.15));
+  outline-offset: -1px;
+  background: var(--cards-bg-color, #c29d84);
+  border-radius: 32px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
 }
 
 .rating-stars-list {
-    display: flex;
-    column-gap: 4px;
-    margin-bottom: 24px;
+  display: flex;
+  column-gap: 4px;
+  margin-bottom: 24px;
 }
 
 .rating-stars-item {
-    line-height: 0;
-    stroke: var(--main-text-color, #0b0803);
-    fill: none;
+  line-height: 0;
+  stroke: var(--main-text-color, #0b0803);
+  fill: none;
 }
 
 .rating-stars-item.filled {
-    fill: var(--main-icon-color, #0b0803);
+  fill: var(--main-icon-color, #0b0803);
 }
 
 .testimonials-quote {
-    margin: 0;
-    margin-bottom: 24px;
-    flex-grow: 1;
+  margin: 0;
+  margin-bottom: 24px;
+  flex-grow: 1;
 }
 
 .testimonials-author {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .testimonials-list-item {
-        flex-basis: calc((100% - 24px) / 2);
-    }
+    flex-basis: calc((100% - 24px) / 2);
+  }
 }
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1440px) {
-    .testimonials-title {
-        max-width: 420px;
-    }
+  .testimonials-title {
+    max-width: 420px;
+  }
 
-    .testimonials-list-item {
-        flex-basis: calc((100% - (24px * 3)) / 4);
-    }  
+  .testimonials-list-item {
+    flex-basis: calc((100% - (24px * 3)) / 4);
+  }
 }

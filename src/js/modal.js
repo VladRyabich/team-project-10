@@ -8,7 +8,7 @@
     modal: document.querySelector('[data-modal]'),
   };
 
-  refs.openModalBtn.addEventListener('click', (e) => {
+  refs.openModalBtn.addEventListener('click', e => {
     e.preventDefault();
     toggleModal();
   });
